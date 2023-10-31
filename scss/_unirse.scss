@@ -1,0 +1,185 @@
+#grid-unirse{
+  display: grid;
+  grid-template-areas: 
+  "titulo"
+  "formx"
+  "valores";
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  #titulo-unirse{
+    grid-area: titulo;
+    width: 78.5045794393vw;
+    margin-bottom: 1.74338294179vw;
+    #volver2 {
+      font-size: 5.98130841121vw;
+      padding-top: 3.73691588785vw;
+      margin-left: 1.86845794393vw;
+      margin-right: 1.86845794393vw;
+      margin-bottom: 0.93422897196vw;
+      border-bottom: $color2 solid 0.22429906542vw;
+    }
+    #h3-unirse{
+      font-size: 1.74953271028vw;
+    }
+  }
+  #sec{
+    width: 78.5046728972vw;
+    #formx{
+      display: grid;
+      grid-area: formx;
+      grid-template-areas: 
+      "labels1 inputs1 labels2 inputs2";
+      margin-right: 5.607476635515vw;
+      margin-left: 5.60747663551vw;
+      #labels1-unirse{
+        grid-area: labels1;
+        width: 13.4579439252vw;
+        padding-top: 0.37364488vw;
+        label {
+          text-align: left;
+          font-size: 1.40186915888vw;
+          padding-left: 0.37364488vw;
+          margin-top: 1.80188592653%;
+          height: 12.6891218073%;
+          margin-bottom: 4.81000481%;
+        }
+      }
+      #inputs1-unirse{
+        grid-area: inputs1;
+        width: 18.785046729vw;
+        height: 100%;
+        .inputs-unirse {
+          padding-bottom: 2.38549618321%;
+          padding-top: 2.38549618321%;
+          padding-left: 1.98930747234%;
+          margin-left: 12.4331717021%;
+          margin-bottom: 4.81000481%;
+          height: 12.6891218073%;
+          border: $color2 double;
+        }
+        #formato {
+          font-size: 1.30841121495vw;
+          padding-top: 0.28028037383vw;
+        }
+      }
+      #labels2-unirse{
+        grid-area: labels2;
+        width: 13.4579439252vw;
+        padding-top: 0.373648vw;
+        label{
+          margin-left: 2.33644859813vw;
+          text-align: left;
+          font-size: 1.40186915888vw;
+          padding-left: 0.3738317757vw;
+          margin-top: 1.80188592653%;
+          height: 12.6891218073%;
+          margin-bottom: 4.81000481%;
+          width: 100%;
+        }
+      }
+      #inputs2-unirse{
+        grid-area: inputs2;
+        width: 18.785046729vw;
+        margin-left: 2.99065420561vw;
+        .inputs-unirse {
+          padding-bottom: 2.38549618321%;
+          padding-top: 2.38549618321%;
+          padding-left: 1.98930747234%;
+          margin-left: 12.4331717021%;
+          margin-bottom: 4.81000481%;
+          height: 12.6891218073%;
+          border: $color2 double;
+        }
+        #nivel {
+          font-size: 1.30841121495vw;
+          padding-top: 0.28028037383vw;
+        }
+        #submitreset-unirse{
+          height: 12.6891218073%;
+          .inputreset2 {
+            font-size: 1.21495327103vw;
+            padding-right: 0.56074766355vw;
+            padding-bottom: 0.46728971962vw;
+            padding-top: 0.46728971962vw;
+            padding-left: 0.56074766355vw;
+            margin-left: 2.33644859813vw;
+            margin-bottom: 0.93457943925vw;
+            border: $color2 double 2.4px;
+            width: fit-content;
+            height: 100%;
+          }
+          #reset2 {
+            padding-left: 1.98930747234%;
+            margin-bottom: 24.0384615385%;
+            margin-left: 12.4331717021%;
+            border: $color2 double;
+          } 
+        }
+      }
+    }
+  }
+  #valores{
+    grid-area: valores;
+    #h2-unirse{
+      font-size: 2.64299065421vw;
+      margin-bottom: 1.94317757009vw;
+    }
+    #article-lados-unirse{
+      margin-left: 4.67289719626vw;
+      margin-right: 4.67289719626vw;
+      margin-bottom: 0.46728971962vw;
+      #listavalor1 {
+        width: fit-content;
+        li {
+          margin-right: 14.0186915888vw;
+          font-size: 2.33644859813vw;
+          padding-bottom: 60px;
+        }
+      }
+      #listavalor2 {
+        margin-bottom: 1.40186915888vw;
+        li {
+          margin-left: 14.0186915888vw;
+          font-size: 2.33644859813vw;
+          padding-bottom: 60px;
+        }
+      }
+    }
+    #videounirse {
+      width: 37.3831775701vw;
+      height: 18.2429906542vw;
+      border-top: #005b88 solid 5px;
+    }
+    #h4-unirse{
+      display: flex;
+      align-self: center;
+      width: fit-content;
+      font-size: 1.58878504673vw;
+      margin-top: 0.18691588785vw;
+    }
+  }
+}
+/* Media queries general de celular */
+@media (max-width: 590px){
+    #grid-unirse #valores #videounirse {
+      width: 215.165105049px;
+      height: 105.000571264px;
+      border-top: #005b88 solid 5px;
+    }
+}
+@media (max-width: 490px) {
+  #grid-unirse #valores #videounirse {
+    width: 182.970887408px;
+    height: 89.2897930551px;
+    border-top: #005b88 solid 5px;
+  }
+}
+@media (max-width: 390px) {
+  #grid-unirse #valores #videounirse {
+    width: 145.51535802px;
+    height: 71.0114947136px;
+    border-top: #005b88 solid 5px;
+  }
+}
+
+//Listo//

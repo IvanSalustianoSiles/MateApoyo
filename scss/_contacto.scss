@@ -1,0 +1,508 @@
+#main-cont{
+  .titulo2 {
+    font-size: 5.60747663551vw;
+    padding-top: 3.73831775701vw;
+    margin-left: 2.33644859813vw;
+    border-bottom: #212529 solid;
+    width: 37.3831775701vw;
+  }
+  #form1-cont {
+    margin-left: 25px;
+    .inputs1 {
+      padding-bottom: 5px;
+      padding-top: 5px;
+      padding-left: 4px;
+      margin-bottom: 10px;
+      border: $color2 double;
+    }
+    .enviaresetear1 {
+      padding-right: 4px;
+      margin-right: 6px;
+    }
+    #nombreyapellido {
+      padding-right: 225px;
+      margin-top: 10px;
+      width: 401px;
+      height: 31.6px;
+    }
+    #correo-cont {
+      height: 31.6px;
+      width: 176px;
+    }
+    #telefono1 {
+      margin-left: 45px;
+      height: 31.6px;
+      width: 176px;
+      margin-bottom: 10px;
+    }
+    #mensaje1 {
+      display: flex;
+      align-content: start;
+      flex-wrap: wrap;
+      padding-right: 225px;
+      padding-bottom: 100px;
+      width: 401px;
+      height: 126.6px;
+      margin-bottom: 10px;
+    }
+    #submit-cont {
+      height: 31.6px;
+      width: 51.325px;
+    }
+    #reset-cont {
+      height: 31.6px;
+      width: 65.863px;
+    }
+  }
+  #asidecontact {
+    vertical-align: top;
+    margin-left: 35px;
+    font-size: 19px;
+    a {
+      #img-aside {
+        width: 250px;
+      }
+    }
+  }
+  #h2c {
+    margin-left: 10px;
+  }
+}
+/* Media queries general de computadora */
+@media (max-width: 1039px){
+  #main-cont #asidecontact {
+    vertical-align: top;
+    margin-left: 18px;
+    font-size: 19px;
+  }
+}
+@media (max-width: 1019px){
+  #main-cont #asidecontact {
+    vertical-align: top;
+    margin-left: 0px;
+    font-size: 19px;
+  }
+}
+@media (max-width: 989px){
+    #main-cont #asidecontact {
+      vertical-align: top;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+}
+@media (max-width: 936px) {
+  #main-cont {
+    #form1-cont{
+      margin-left: 0px;
+      .inputs1 {
+        padding-bottom: 4px;
+        padding-top: 4px;
+        padding-left: 3.2px;
+        margin-bottom: 8px;
+        margin-left: 20px;
+        border: $color2 double;
+      }
+      .enviaresetear1 {
+        padding-right: 3.2px;
+        margin-right: 4.8px;
+      }
+      #nombreyapellido {
+        padding-right: 180px;
+        margin-top: 8px;
+        width: 320.8px;
+        height: 25.28px;
+      }
+      #correo-cont{
+        height: 25.28px;
+        width: 140.8px;
+      }
+      #telefono1 {
+        margin-left: 36px;
+        height: 25.28px;
+        width: 140.8px;
+      }
+      #mensaje1 {
+        display: flex;
+        align-content: start;
+        flex-wrap: wrap;
+        padding-right: 180px;
+        padding-bottom: 80px;
+        width: 320.8px;
+        height: 101.28px;
+        margin-bottom: 10px;
+      }
+      #reset-cont{
+        height: 31.6px;
+        width: 65.863px;
+      }
+      #submit-cont{
+        height: 31.6px;
+        width: 51.325px;
+      }
+    }
+    #asidecontact {
+      vertical-align: top;
+      font-size: 16px;
+      margin-left: 10px;
+      a #img-aside{
+        width: 230px;
+      }
+    }
+  }
+}
+@media (max-width: 823px){
+  #main-cont{
+    #form1-cont {
+      .inputs1 {
+        padding-bottom: 3.2px;
+        padding-top: 3.2px;
+        padding-left: 2.56px;
+        margin-bottom: 6.4px;
+        margin-left: 16px;
+        border: $color2 double;
+        font-size: 12px;
+      }
+      .enviaresetear1 {
+        padding-right: 2.56px;
+        margin-right: 3.84px;
+        font-size: 11px;
+      }
+      #nombreyapellido {
+        padding-right: 144px;
+        margin-top: 6.4px;
+        width: 256.64px;
+        height: 20.224px;
+      }
+      #correo-cont{
+        height: 20.224px;
+        width: 112.64px;
+      }           
+      #telefono1 {
+        margin-left: 28.8px;
+        height: 20.224px;
+        width: 112.64px;
+      }
+      #mensaje1 {
+        display: flex;
+        align-content: start;
+        flex-wrap: wrap;
+        padding-right: 144px;
+        padding-bottom: 64px;
+        width: 256.64px;
+        height: 81.024px;
+        margin-bottom: 10px;
+      }
+      #reset-cont{
+        height: 25.28px;
+        width: 52.6904px;
+      }
+      #submit-cont{
+        height: 25.28px;
+        width: 41.06px;
+      }
+    }
+    #asidecontact {
+      vertical-align: top;
+      font-size: 15px;
+      margin-left: 50px;
+      a #img-aside{
+        width: 180px;
+      }
+    }
+  }
+}
+/* Media queries general de celular */
+@media (max-width: 787px){
+  #main-cont {
+    display: grid;
+    text-align: center;
+    #volver7{
+      display: flex;
+      justify-content: center;
+      justify-self: center;
+      text-align: center;
+      font-size: 7.62388818297vw;
+    }
+    #form1-cont {
+      display: flex;
+      justify-self: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-left: 0px;
+      width: 487.2px;
+      .inputs1 {
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 4px;
+        margin-bottom: 10px;
+        border: $color2 double;
+      }
+      .enviaresetear1 {
+        padding-right: 4px;
+        margin-right: 6px;
+      }
+      #nombreyapellido {
+        padding-right: 225px;
+        margin-top: 10px;
+        width: 401px;
+        height: 31.6px;
+      }
+      #correo-cont{
+        height: 31.6px;
+        width: 176px;
+      }
+      #telefono1 {
+        margin-left: 45px;
+        height: 31.6px;
+        width: 176px;
+        margin-bottom: 10px;
+      }
+      #mensaje1 {
+        display: inline-block;
+        padding-right: 225px;
+        padding-bottom: 100px;
+        width: 401px;
+        height: 126.6px;
+        margin-bottom: 10px;
+      }
+      #reset-cont{
+        height: 31.6px;
+        width: 65.863px;
+      }
+      #submit-cont{
+        height: 31.6px;
+        width: 65.863px;
+      }
+    }
+    #asidecontact {
+      vertical-align: top;
+      margin-left: 35px;
+      font-size: 19px;
+      a #img-aside{
+        width: 250px;
+      }
+    }
+  }
+}
+@media (max-width: 590px){
+  #main-cont{
+    display: grid;
+    text-align: center;
+    #volver7{
+      display: flex;
+      justify-content: center;
+      justify-self: center;
+      text-align: center;
+      font-size: 50px;
+    }
+    #form1-cont{
+      display: flex;
+      justify-self: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-left: 0px;
+      width: 389.76px;
+      .inputs1 {
+        padding-bottom: 4px;
+        padding-top: 4px;
+        padding-left: 3.2px;
+        margin-bottom: 8px;
+        border: $color2 double;
+      }
+      .enviaresetear1 {
+        padding-right: 3.2px;
+        margin-right: 4.8px;
+      }
+      #nombreyapellido {
+        padding-right: 180px;
+        margin-top: 8px;
+        width: 320.8px;
+        height: 25.28px;
+      }
+      #correo-cont{
+        height: 25.28px;
+        width: 140.8px;
+      }
+      #telefono1 {
+        margin-left: 36px;
+        height: 25.28px;
+        width: 140.8px;
+        margin-bottom: 10px;
+      }
+      #mensaje1 {
+        display: inline-block;
+        padding-right: 180px;
+        padding-bottom: 80px;
+        width: 320.8px;
+        height: 101.28px;
+        margin-bottom: 10px;
+      }
+      #reset-cont{
+        height: 30.336px;
+        width: 63.22848px;
+      }
+      #submit-cont{
+        height: 30.336px;
+        width: 63.22848px;
+      }
+    }
+    #asidecontact {
+      vertical-align: top;
+      margin-left: 28px;
+      font-size: 15.2px;
+      a #img-aside{
+        width: 200px;
+      }
+    }
+  }
+}
+@media (max-width: 490px){
+  #main-cont{
+    display: grid;
+    text-align: center;
+    #volver7{
+      display: flex;
+      justify-content: center;
+      justify-self: center;
+      text-align: center;
+      font-size: 40px;
+    }
+    #form1-cont{
+      display: flex;
+      justify-self: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-left: 0px;
+      width: 311.808px;
+      padding-right: 10px;
+      .inputs1 {
+        padding-bottom: 3.2px;
+        padding-top: 3.2px;
+        padding-left: 2.56px;
+        margin-bottom: 6.4px;
+        border: $color2 double;
+      }
+      .enviaresetear1 {
+        padding-right: 2.56px;
+        margin-right: 3.84px;
+      }
+      #nombreyapellido {
+        padding-right: 144px;
+        margin-top: 6.4px;
+        width: 256.64px;
+        height: 20.224px;
+      }
+      #correo-cont{
+        height: 20.224px;
+        width: 112.64px;
+      }
+      #telefono1 {
+        margin-left: 28.8px;
+        height: 20.224px;
+        width: 112.64px;
+        margin-bottom: 10px;
+      }
+      #mensaje1 {
+        display: inline-block;
+        padding-right: 144px;
+        padding-bottom: 64px;
+        width: 256.64px;
+        height: 81.024px;
+        margin-bottom: 10px;
+      }
+      #reset-cont{
+        height: 24.2688px;
+        width: 50.582784px;
+      }
+      #submit-cont{
+        height: 24.2688px;
+        width: 50.582784px;
+      }
+    }
+    #asidecontact {
+      vertical-align: top;
+      margin-left: 22.4px;
+      font-size: 12.16px;
+      a #img-aside{
+        width: 200px;
+      }
+    }
+  }
+}
+@media (max-width: 378px){
+  #main-cont{
+    display: grid;
+    text-align: center;
+    #volver7{
+      display: flex;
+      justify-content: center;
+      justify-self: center;
+      text-align: center;
+      font-size: 40px;
+      width: 150px;
+    }
+    #form1-cont {
+      display: flex;
+      justify-self: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-left: 0px;
+      width: 249.4464px;
+      padding-right: 16px;
+      .inputs1 {
+        padding-bottom: 2.56px;
+        padding-top: 3.2px;
+        padding-left: 2.048px;
+        margin-bottom: 6.4px;
+        border: $color2 double;
+        font-size: 10px;
+      }
+      .enviaresetear1 {
+        padding-right: 2.048px;
+        margin-right: 3.072px;
+      }
+      #nombreyapellido {
+        padding-right: 115.2px;
+        margin-top: 6.4px;
+        width: 205.312px;
+        height: 20.224px;
+      }
+      #correo-cont{
+        height: 20.224px;
+        width: 90.112px;
+      }
+      #telefono1 {
+        margin-left: 23.04px;
+        height: 20.224px;
+        width: 90.112px;
+        margin-bottom: 10px;
+      }
+      #mensaje1 {
+        display: inline-block;
+        padding-right: 115.2px;
+        padding-bottom: 64px;
+        width: 205.312px;
+        height: 81.024px;
+        margin-bottom: 10px;
+      }
+      #reset-cont{
+        height: 24.2688px;
+        width: 50.55947264px;
+      }
+      #submit-cont{
+        height: 24.2688px;
+        width: 50.55947264px;
+      }
+    }
+    #asidecontact {
+      vertical-align: top;
+      margin-left: 17.92px;
+      font-size: 9.728px;
+      a #img-aside{
+        width: 160px;
+      }
+    }
+  }
+}
+
+//Listo//

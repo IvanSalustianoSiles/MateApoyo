@@ -1,0 +1,85 @@
+footer {
+    background-color: $color2;
+    border-left: $color1 double 9.34579439252vw;
+    border-right: $color1 double 9.34579439252vw;
+    border-top: #3f5b78  10px;
+    height: fit-content;
+    div{
+        .logo-footer {
+            width: 100%;
+            height: auto;
+        }
+        .logo-footer-a {
+            width: 9.03342366757%;
+            height: fit-content;
+        }
+    }
+    .nav-footer {
+        padding-bottom: 0.46710280373vw;
+        .left-footer {
+            height: 37.6204529856%;
+            width: 20.3271028037vw;
+            padding-left: 0px;
+            margin-bottom: 0px;
+            li { 
+                a {
+                    img {
+                        width: 4.67289719626vw;
+                    }
+                }
+            }
+        }
+        .center-footer {
+            width: 40.6542056075vw;
+            height: 37.6204529856%;
+            padding-left: 0px;
+            margin-bottom: 0px;
+            li { 
+                a {
+                    img {
+                        width: 4.67289719626vw;
+                    }
+                }
+            }
+        }
+        .right-footer {
+            width: 20.3271028037vw;
+            padding-right: 1%;
+            height: 37.6204529856%;
+            margin-bottom: 0px;
+            vertical-align: middle;
+            img {
+                width: 4.67289719626vw;
+            }
+        }
+    }
+    .div-footer {
+        padding-bottom: 0.45967235531%;
+    }
+}
+@media (max-width: 590px) {
+    .left-footer{
+      height: 37.6204529856%;
+      width: 25%;
+      padding-left: 0px;
+    }
+    .left-footer li a img {
+      width: 4.67289719626vw;
+    }
+    .right-footer {
+      width: 25%;
+      height: 37.6204529856%;
+      padding-right: 1%;
+    }
+    .right-footer img {
+      width: 4.67289719626vw;
+    }
+    .center-footer{
+      width: 50%;
+      height: 37.6204529856%;
+      padding-left: 0px;
+    }
+    .center-footer li a img {
+      width: 4.67289719626vw;
+    }
+}

@@ -1,0 +1,157 @@
+#tuprofemain {
+  background-image: url(../multimedia/Proximamentefoto2.png);
+  background-size: 82.2429906542vw auto;
+  height: 450px;
+  background-repeat: no-repeat;
+  border-left-color: $color2;
+  border-right-color: $color2;
+  #volver3 {
+    font-size: 70px;
+    font-weight: 300;
+    width: 500px;
+    margin-left: 3.73831775701vw;
+    padding-top: 9.34579439252vw;
+    border-bottom: #0A0F14 solid 2px;
+  }
+  #ptuprofesor {
+    overflow-y: scroll;
+    margin-left: 3.73831775701vw;
+    margin-top: 0.93457943925vw;
+    width: 46.7289719626vw;
+    height: 14.0186915888vw;
+    font-size: 1.30841121495vw;
+  }
+  .a-tuprofesor p{
+    margin-bottom: 17.6px;
+  }
+}
+/* Media queries general de celular */
+@media (max-width: 777px){
+  #tuprofemain {
+    background-image: url(../multimedia/Proximamentefoto3.png);
+    background-size: 82.2429906542vw auto;
+    height: 450px;
+    background-repeat: no-repeat;
+    border-left-color: $color2;
+    border-right-color: $color2;
+    #volver3 {
+      font-size: 50px;
+      font-weight: 300;
+      width: 330px;
+      margin-left: 3.73831775701vw;
+      padding-top: 9.34579439252vw;
+      border-bottom: #0A0F14 solid 2px;
+    }
+    #ptuprofesor {
+      overflow-y: scroll;
+      margin-left: 3.73831775701vw;
+      margin-top: 1.13457943925vw;
+      width: 50.7289719626vw;
+      height: 20.0186915888vw;
+      font-size: 1.30841121495vw;
+      padding-bottom: 5px;
+    }
+  }
+}
+@media (max-width: 649px){
+  #tuprofemain {
+    #volver3 {
+      font-size: 7.71604938272vw;
+      font-weight: 300;
+      width: 50.9259259259vw;
+      margin-left: 3.73831775701vw;
+      padding-top: 10.34579439252vw;
+      border-bottom: #0A0F14 solid 2px;
+    }
+    #ptuprofesor {
+      overflow-y: scroll;
+      margin-left: 3.73831775701vw;
+      margin-top: 1.13457943925vw;
+      width: 50.7289719626vw;
+      height: 30.0186915888vw;
+      font-size: 1.80841121495vw;
+      padding-bottom: 5px;
+    }
+  }
+}
+@media (max-width: 576px) {  
+  #tuprofemain {
+    background-image: url(../multimedia/Proximamentefoto4.png);
+    background-size: 82.2429906542vw auto;
+    height: 450px;
+    background-repeat: no-repeat;
+    border-left-color: $color2;
+    border-right-color: $color2;
+    #volver3 {
+      font-size: 7.71604938272vw;
+      font-weight: 280;
+      width: 70.9259259259vw;
+      margin-left: 3.73831775701vw;
+      padding-top: 20.34579439252vw;
+      border-bottom: #0A0F14 solid 2px;
+    }
+    #ptuprofesor {
+      overflow-y: scroll;
+      margin-left: 3.73831775701vw;
+      margin-top: 1.13457943925vw;
+      width: 50.7289719626vw;
+      height: 30.0186915888vw;
+      font-size: 1.80841121495vw;
+      padding-bottom: 5px;
+    }
+  }
+}
+@media (max-width: 482px){
+  #tuprofemain {
+    #volver3 {
+      font-size: 8.71604938272vw;
+      font-weight: 280;
+      width: 70.9259259259vw;
+      margin-left: 3.73831775701vw;
+      padding-top: 20.34579439252vw;
+      border-bottom: #0A0F14 solid 2px;
+    }
+    #ptuprofesor {
+      overflow-y: scroll;
+      margin-left: 3.73831775701vw;
+      margin-top: 1.13457943925vw;
+      width: 50.7289719626vw;
+      height: 44.0186915888vw;
+      font-size: 2vw;
+      padding-bottom: 5px;
+    }
+  }
+}
+@media (max-width: 439px){
+    #tuprofemain {
+      background-image: url(../multimedia/Proximamentefoto5.png);
+      background-size: 82.2429906542vw auto;
+      height: 450px;
+      background-repeat: no-repeat;
+      border-left-color: $color2;
+      border-right-color: $color2;
+    }
+}
+@media (max-width: 390px) {
+  #tuprofemain {
+    #ptuprofesor {
+      overflow-y: scroll;
+      margin-left: 3.73831775701vw;
+      margin-top: 1.13457943925vw;
+      width: 50.7289719626vw;
+      height: 54.0186915888vw;
+      font-size: 2vw;
+      padding-bottom: 5px;
+    }
+    #volver3 {
+      font-size: 8.71604938272vw;
+      font-weight: 280;
+      width: 70.9259259259vw;
+      margin-left: 3.73831775701vw;
+      padding-top: 30.34579439252vw;
+      border-bottom: #0A0F14 solid 2px;
+    }
+  } 
+}
+
+//Listo//

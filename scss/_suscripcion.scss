@@ -1,0 +1,197 @@
+#grid-suscripcion{
+    display: grid;
+    grid-template-areas: 
+    "titulo-s titulo-s"
+    "sus sus"
+    "promo promo"
+    "form-s mateapoyer";
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    #volver4{
+        grid-area: titulo-s;
+        width: 77.5700934579vw;
+        margin-left: 0.93457943925vw;
+        font-size: 4.67289719626vw;
+        padding-top: 3.73831775701vw;
+        border-bottom: solid black 3px;
+    }
+    #h4-sus{
+        grid-area: sus;
+        font-size: 1.68224299065vw;
+        margin-left: 0.93457943925vw;
+
+    }
+    #promo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        grid-area: promo;
+        article{
+            display: grid;
+            margin-top: 2.80373831776vw;
+            width: 23.3644859813vw;
+            height: 37.3831775701vw;
+            align-content:space-evenly;
+            border: double black 4px;
+            .h2-suscripcion{
+                text-align: center;
+                font-size: 3.27102803738vw;
+            }
+            .beneficios{
+                padding-left: 0.93457943925vw;
+                li {
+                    font-size: 1.8691588785vw;
+                    margin-bottom: 2.80373831776vw;
+                }   
+            }
+            .p-suscripcion{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-self: end;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    #mateapoyer{
+        grid-area: mateapoyer;
+        border-left: black solid 1px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    #form-s{
+        grid-area: form-s;
+        margin-left: 20px;
+        margin-top: 20px;
+        .form1-s{
+            display: flex;
+            width: fit-content;
+            flex-direction: column;
+            input{
+                border: double black 3px;
+                margin-bottom: 15px;
+                height: 28px;
+                padding-left: 4px;
+            }
+        }
+        .form2-s{
+            width: 400px;
+            img{
+                width: 100px;
+                height: auto;
+            }
+            .contires{
+                width: 100px;
+                height: 24px;
+                margin-top: 5px;
+                font-size: 16px;
+                background-color: $color2;
+                color: $color1;
+                font-weight: 500;
+                border-radius: 5px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+@media (max-width: 929px){
+   #grid-suscripcion{
+    #mateapoyer{
+        iframe{
+            width: 256.787px;
+            height: 149.6px;
+        }
+    }
+   }
+}
+@media (max-width: 861px){
+    #grid-suscripcion{
+     #mateapoyer{
+         margin-right: 30px;
+         iframe{
+             width: 205.4296px;
+             height: 119.68px;
+            }
+            h3{
+                font-size: 15px;
+            }
+            h5{
+                font-size: 12px;
+            }
+        }
+    }
+ }
+@media (max-width: 861px){
+    #grid-suscripcion{
+        display: grid;
+        text-align: center;
+        grid-template-areas: 
+        "titulo-s titulo-s"
+        "sus sus"
+        "promo promo"
+        "form-s form-s"
+        "mateapoyer mateapoyer";
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto auto;
+        #form-s{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            grid-area: form-s;
+            margin-left: 20px;
+            margin-top: 20px;
+            .form1-s{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                flex-wrap: wrap;
+                width: 100%;
+                input{
+                    border: double black 3px;
+                    margin-bottom: 15px;
+                    height: 28px;
+                    width: 171.2px;
+                    padding-left: 4px;
+                }
+            }
+            .form2-s{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                width: 350px;
+                img{
+                    width: 100px;
+                    height: auto;
+                }
+                .contires{
+                    width: 100px;
+                    height: 24px;
+                    margin-top: 5px;
+                    font-size: 16px;
+                    background-color: #101820;
+                    color: #a5bacf;
+                    font-weight: 500;
+                    border-radius: 5px;
+                    margin-bottom: 5px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        #mateapoyer{
+            margin-right: 0px;
+        }
+    }
+}
+@media (max-width: 861px){
+    #grid-suscripcion{
+        #promo{
+            article{
+                height: 50.3831775701vw;
+                .p-suscripcion{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

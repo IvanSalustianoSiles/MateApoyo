@@ -1,0 +1,301 @@
+#volver6{
+  font-weight: 600;
+  border-bottom: #212529 solid 3px;
+}
+#ultimovideo {
+  width: 525px;
+  height: 300px;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+#h2ejemplos {
+  width: 26.1682242991vw;
+  font-size: 2.80373831776vw;
+  margin-left: 1.86841121495vw;
+  vertical-align: top;
+  margin-top: 0.93420560747vw;
+}
+#materialsecciones {
+  margin: 1.86841121495vw;
+  article {
+    iframe {
+      display: inline-block;
+      margin-left: 1.8691588785vw;
+      margin-bottom: 1.8691588785vw;
+      width: 250px;
+      height: 150px;
+      border-top: #3f5b78 solid 5px;
+    }
+    .titulosmateriales {
+        border-top: #212529 3px solid;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+    .carousel, .slide {
+      div.carousel-inner {
+        padding-right: 3.46020761246vw;
+      }
+      a {
+        .siguiente {
+          display: flex;
+          justify-content: end;
+        }
+        .previo {
+          display: flex;
+          justify-content: start;
+        }
+      }
+    }
+  }
+}
+#h4ejemplos {
+  height: 5.79439252336vw;
+  vertical-align: top;
+  color: #212529;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
+/* Media queries general de computadora */
+@media (max-width: 1157px){
+  #materialsecciones article {
+    iframe {
+      display: inline-block;
+      margin-left: 1.8691588785vw;
+      margin-bottom: 1.8691588785vw;
+      width: 220px;
+      height: 132px;
+      border-top: #3f5b78 solid 5px;
+    }
+    div{
+      padding-left: 10.5px;
+    }
+  }
+}
+@media (max-width: 1029px){
+  #ultimovideo {
+    width: 472.5px;
+    height: 270px;
+    margin-left: 20px;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 1021px){
+  #materialsecciones article {
+    iframe {
+      display: inline-block;
+      margin-left: 1.8691588785vw;
+      margin-bottom: 1.8691588785vw;
+      width: 198px;
+      height: 118.8px;
+      border-top: #3f5b78 solid 5px;
+    }
+    .carousel, .slide {
+      div.carousel-inner{
+        padding-left: 0px !important;
+      }
+    }
+  }
+  #h4ejemplos {
+    height: 6.79439252336vw;;
+    vertical-align: top;
+    color: #212529;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 930px){
+    #ultimovideo {
+      width: 425.25px;
+      height: 243px;
+      margin-left: 20px;
+      padding-top: 15px;
+    }
+}
+@media (max-width: 909px){
+  #materialsecciones article iframe {
+    display: inline-block;
+    margin-left: 1.8691588785vw;
+    margin-bottom: 1.8691588785vw;
+    width: 178.2px;
+    height: 106.92px;
+    border-top: #3f5b78 solid 5px;
+  }
+  #h4ejemplos {
+    height: 6.79439252336vw;
+    vertical-align: top;
+    color: #212529;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 842px){
+  #ultimovideo {
+    width: 382.725px;
+    height: 218.7px;
+    margin-left: 20px;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 821px){
+  #materialsecciones article iframe {
+    display: inline-block;
+    margin-left: 1.8691588785vw;
+    margin-bottom: 1.8691588785vw;
+    width: 142.56px;
+    height: 85.536px;
+    border-top: #3f5b78 solid 5px;
+  }
+  #h4ejemplos {
+    height: 7.79439252336vw;
+    vertical-align: top;
+    color: #212529;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+}
+/* Media queries general de celular */
+@media (max-width: 764px){
+  #ultimovideo {
+    width: 344.4525px;
+    height: 196.83px;
+    margin-left: 20px;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 690px){
+  #ultimovideo {
+    width: 344.4525px;
+    height: 196.83px;
+    margin-left: 20px;
+    padding-top: 15px;
+  }
+  #h2ejemplos {
+    width: 80%;
+    font-size: 3.80373831776vw;
+    margin-left: 20px;
+    vertical-align: top;
+    margin-top: 0.93420560747vw;
+  }
+}
+@media (max-width: 665px){
+  #materialsecciones article  {
+    iframe {
+      display: inline-block;
+      margin-left: 1.8691588785vw;
+      margin-bottom: 1.8691588785vw;
+      width: 171.072px;
+      height: 102.6432px;
+      border-top: #3f5b78 solid 5px;
+    }
+    .titulosmateriales{
+      display: flex;
+      justify-content: center;
+      font-style: italic;
+      font-weight: 500;
+    }
+  }
+  #h4ejemplos {
+    height: 8.79439252336vw;
+    vertical-align: top;
+    color: #212529;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+  #volver6{
+    font-weight: 600;
+    border-bottom: #212529 solid 3px;
+    font-size: 6.01503759398vw;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 521px){
+    #materialsecciones article iframe {
+      display: inline-block;
+      margin-left: 1.8691588785vw;
+      margin-bottom: 1.8691588785vw;
+      width: 136.8576px;
+      height: 82.11456px;
+      border-top: #3f5b78 solid 5px;
+    }
+    #h4ejemplos {
+      height: 8.79439252336vw;
+      vertical-align: top;
+      color: #212529;
+      padding-bottom: 20px;
+      margin-bottom: 0px;
+      font-size: 14px;
+    }
+    #volver6{
+      font-weight: 600;
+      border-bottom: #212529 solid 3px;
+      font-size: 8.01503759398vw;
+      margin-left: 20px;
+    }
+}
+@media (max-width: 464px){
+    #ultimovideo {
+      width: 275.562px;
+      height: 157.464px;
+      margin-left: 20px;
+      padding-top: 15px;
+    }
+    #h2ejemplos {
+      width: 80%;
+      font-size: 4.10373831776vw;
+      margin-left: 20px;
+      vertical-align: top;
+      margin-top: 0.93420560747vw;
+    }
+    #volver6{
+      font-weight: 600;
+      border-bottom: #212529 solid 3px;
+      font-size: 8.01503759398vw;
+      margin-left: 20px;
+    }
+}
+@media (max-width: 424px){
+  #materialsecciones article {
+    iframe {
+      display: inline-block;
+      margin-left: 1.8691588785vw;
+      margin-bottom: 1.8691588785vw;
+      width: 164.22912px;
+      height: 98.537472px;
+      border-top: #3f5b78 solid 5px;
+    }
+    .titulosmateriales{
+      display: flex;
+      justify-content: center;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 5.18867924528vw;
+    }
+  }
+  #h4ejemplos {
+    height: 10.79439252336vw;
+    vertical-align: top;
+    color: #212529;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 11.5px;
+  }
+}
+@media (max-width: 378px){
+  #ultimovideo {
+    width: 220.4496px;
+    height: 125.9712px;
+    margin-left: 20px;
+    padding-top: 15px;
+  }
+  #h2ejemplos {
+    width: 80%;
+    font-size: 4.10373831776vw;
+    margin-left: 20px;
+    vertical-align: top;
+    margin-top: 0.93420560747vw;
+  }
+}
+
+//listo//

@@ -1,0 +1,79 @@
+#volver1 {
+    font-weight:900;
+    font-size: 4.67289719626vw;
+    vertical-align: top;
+    width: 28.0373831776vw;
+    margin-left: 5.14018691589vw;
+    margin-right: 1.40186915888vw;
+    padding-top: 6.54205607477vw;
+}
+#yo-foto {
+    width: 39.7196vw;
+    height: 39.7196vw;
+}
+#p1 {
+    width: 37.3831775701vw;
+    margin: 1.8691588785vw;
+    .h2-index {
+        font-weight: 400;
+        font-size: 2.33644859813vw;
+    }
+    .quienesomos {
+        width: 37.3831775701vw;
+        height: 16.8224299065vw;
+    }
+}
+#uniteprincipal {
+    display: flex;
+    align-self: center;
+    border: black solid 1px;
+    margin-left: 34px;
+    padding: 6px;
+    height: fit-content;
+    #profeavatar {
+        width: 18.691588785vw;
+        height: 18.691588785vw;
+    }
+}
+#p2 {
+    width: 60.7476635514vw;
+    margin-top: 0.93457943925vw;
+    margin-left: 9.34579439252vw;
+}
+#mapa {
+    margin-bottom: 1.40186915888vw;
+    margin-left: 28.0373831776vw;
+    border-top: #101820 solid 3px;
+    border-bottom: #101820 solid 3px;
+}
+#p3 {
+    width: 50.1869158879vw;
+    padding-left: 1.8691588785vw;
+    #materiales {
+        width: 74.7663551402vw;
+        padding-left: 4.67289719626vw;
+        margin-bottom: 2.80373831776vw;
+        .material-directo {
+            width: 22.3364485981vw;
+            height: 12.523364486vw;
+        }
+        .puntajematerial {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+            input[type=radio] {
+                display: none;
+            }
+            label {
+                color: grey;
+            }
+            label:hover, label:hover ~ label {
+                color: #005b88;
+            }
+            input[type="radio"]:checked ~ label {
+                color: #005b88;
+            }
+        }
+    }
+}
+/* Media queries general de computadora */
+/* Media queries general de celular */
