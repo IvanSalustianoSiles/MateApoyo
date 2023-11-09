@@ -109,7 +109,6 @@
             height: 100%;
           }
           #reset2 {
-            padding-left: 1.98930747234%;
             margin-bottom: 24.0384615385%;
             margin-left: 12.4331717021%;
             border: $color2 double;
@@ -146,9 +145,8 @@
       }
     }
     #videounirse {
-      width: 37.3831775701vw;
+      width: 29.3831775701vw;
       height: 18.2429906542vw;
-      border-top: #005b88 solid 5px;
     }
     #h4-unirse{
       display: flex;
@@ -164,21 +162,18 @@
     #grid-unirse #valores #videounirse {
       width: 215.165105049px;
       height: 105.000571264px;
-      border-top: #005b88 solid 5px;
     }
 }
 @media (max-width: 490px) {
   #grid-unirse #valores #videounirse {
     width: 182.970887408px;
     height: 89.2897930551px;
-    border-top: #005b88 solid 5px;
   }
 }
 @media (max-width: 390px) {
   #grid-unirse #valores #videounirse {
     width: 145.51535802px;
     height: 71.0114947136px;
-    border-top: #005b88 solid 5px;
   }
 }
 

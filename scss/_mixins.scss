@@ -2,5 +2,11 @@
     animation-name: sumatee;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-duration: 0.9s;
+    animation-duration: 1s;
+}
+@mixin animacion2{
+    animation-name: sumatee2;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 1.6s;
 }

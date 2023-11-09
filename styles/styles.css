@@ -28,6 +28,8 @@ li {
 
 iframe {
   border-radius: 5px !important;
+  border-top: #a5bacf solid 5px;
+  box-shadow: 0px -5px 10px #101820, 0px 5px 10px #101820;
 }
 
 .center {
@@ -281,6 +283,11 @@ main {
 #yo-foto {
   width: 39.7196vw;
   height: 39.7196vw;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: #101820 solid 5px;
+  border-top: 0px;
+  box-shadow: 5px 5px 10px #101820, -5px -5px 10px #101820;
 }
 
 #p1 {
@@ -299,36 +306,61 @@ main {
 #uniteprincipal {
   display: flex;
   align-self: center;
-  border: black solid 1px;
   margin-left: 34px;
-  padding: 6px;
+  padding: 8px;
   height: fit-content;
 }
-#uniteprincipal #profeavatar {
-  width: 18.691588785vw;
-  height: 18.691588785vw;
+#uniteprincipal a div {
+  border-radius: 5px;
+  background-color: #101820;
+  color: #a5bacf;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  animation-name: sumatee2;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: 1.6s;
+}
+#uniteprincipal a #profeavatar {
+  width: 25vw;
+  height: 25vw;
 }
 
-#p2 {
+#section3-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#section3-index #p2 {
   width: 60.7476635514vw;
   margin-top: 0.9345794393vw;
-  margin-left: 9.3457943925vw;
 }
-
-#mapa {
+#section3-index #mapa {
   margin-bottom: 1.4018691589vw;
-  margin-left: 28.0373831776vw;
   border-top: #101820 solid 3px;
   border-bottom: #101820 solid 3px;
 }
 
 #p3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+#p3 h2 {
+  width: 100%;
+}
+#p3 #enfoque {
   width: 50.1869158879vw;
-  padding-left: 1.8691588785vw;
+  text-align: center;
 }
 #p3 #materiales {
   width: 74.7663551402vw;
-  padding-left: 4.6728971963vw;
   margin-bottom: 2.8037383178vw;
 }
 #p3 #materiales .material-directo {
@@ -352,6 +384,21 @@ main {
   color: #005b88;
 }
 
+#h3-index {
+  font-size: 30px;
+}
+
+@keyframes sumatee2 {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 /* Media queries general de computadora */
 /* Media queries general de celular */
 #main-cont .titulo2 {
@@ -860,7 +907,6 @@ main {
   width: 525px;
   height: 300px;
   margin-left: 20px;
-  padding-top: 15px;
 }
 
 #h2ejemplos {
@@ -880,7 +926,6 @@ main {
   margin-bottom: 1.8691588785vw;
   width: 250px;
   height: 150px;
-  border-top: #3f5b78 solid 5px;
 }
 #materialsecciones article .titulosmateriales {
   border-top: #212529 3px solid;
@@ -915,7 +960,6 @@ main {
     margin-bottom: 1.8691588785vw;
     width: 220px;
     height: 132px;
-    border-top: #3f5b78 solid 5px;
   }
   #materialsecciones article div {
     padding-left: 10.5px;
@@ -926,7 +970,6 @@ main {
     width: 472.5px;
     height: 270px;
     margin-left: 20px;
-    padding-top: 15px;
   }
 }
 @media (max-width: 1021px) {
@@ -936,7 +979,6 @@ main {
     margin-bottom: 1.8691588785vw;
     width: 198px;
     height: 118.8px;
-    border-top: #3f5b78 solid 5px;
   }
   #materialsecciones article .carousel div.carousel-inner, #materialsecciones article .slide div.carousel-inner {
     padding-left: 0px !important;
@@ -954,7 +996,6 @@ main {
     width: 425.25px;
     height: 243px;
     margin-left: 20px;
-    padding-top: 15px;
   }
 }
 @media (max-width: 909px) {
@@ -964,7 +1005,6 @@ main {
     margin-bottom: 1.8691588785vw;
     width: 178.2px;
     height: 106.92px;
-    border-top: #3f5b78 solid 5px;
   }
   #h4ejemplos {
     height: 6.7943925234vw;
@@ -979,7 +1019,6 @@ main {
     width: 382.725px;
     height: 218.7px;
     margin-left: 20px;
-    padding-top: 15px;
   }
 }
 @media (max-width: 821px) {
@@ -989,7 +1028,6 @@ main {
     margin-bottom: 1.8691588785vw;
     width: 142.56px;
     height: 85.536px;
-    border-top: #3f5b78 solid 5px;
   }
   #h4ejemplos {
     height: 7.7943925234vw;
@@ -1006,7 +1044,6 @@ main {
     width: 344.4525px;
     height: 196.83px;
     margin-left: 20px;
-    padding-top: 15px;
   }
 }
 @media (max-width: 690px) {
@@ -1014,7 +1051,6 @@ main {
     width: 344.4525px;
     height: 196.83px;
     margin-left: 20px;
-    padding-top: 15px;
   }
   #h2ejemplos {
     width: 80%;
@@ -1031,7 +1067,6 @@ main {
     margin-bottom: 1.8691588785vw;
     width: 171.072px;
     height: 102.6432px;
-    border-top: #3f5b78 solid 5px;
   }
   #materialsecciones article .titulosmateriales {
     display: flex;
@@ -1061,7 +1096,6 @@ main {
     margin-bottom: 1.8691588785vw;
     width: 136.8576px;
     height: 82.11456px;
-    border-top: #3f5b78 solid 5px;
   }
   #h4ejemplos {
     height: 8.7943925234vw;
@@ -1083,7 +1117,6 @@ main {
     width: 275.562px;
     height: 157.464px;
     margin-left: 20px;
-    padding-top: 15px;
   }
   #h2ejemplos {
     width: 80%;
@@ -1106,7 +1139,6 @@ main {
     margin-bottom: 1.8691588785vw;
     width: 164.22912px;
     height: 98.537472px;
-    border-top: #3f5b78 solid 5px;
   }
   #materialsecciones article .titulosmateriales {
     display: flex;
@@ -1129,7 +1161,6 @@ main {
     width: 220.4496px;
     height: 125.9712px;
     margin-left: 20px;
-    padding-top: 15px;
   }
   #h2ejemplos {
     width: 80%;
@@ -1164,7 +1195,7 @@ main {
   animation-name: sumatee;
   animation-delay: 0s;
   animation-iteration-count: infinite;
-  animation-duration: 0.9s;
+  animation-duration: 1s;
 }
 #sec1-pc #sumate a {
   color: #a5bacf !important;
@@ -1692,7 +1723,7 @@ main {
   width: fit-content;
   flex-direction: column;
 }
-#grid-suscripcion #form-s .form1-s input {
+#grid-suscripcion #form-s .form1-s input, #grid-suscripcion #form-s .form1-s select {
   border: double black 3px;
   margin-bottom: 15px;
   height: 28px;
@@ -1826,7 +1857,7 @@ main {
   height: 14.0186915888vw;
   font-size: 1.308411215vw;
 }
-#tuprofemain .a-tuprofesor p {
+#tuprofemain #ptuprofesor p {
   margin-bottom: 17.6px;
 }
 
@@ -2064,7 +2095,6 @@ main {
   height: 100%;
 }
 #grid-unirse #sec #formx #inputs2-unirse #submitreset-unirse #reset2 {
-  padding-left: 1.9893074723%;
   margin-bottom: 24.0384615385%;
   margin-left: 12.4331717021%;
   border: #101820 double;
@@ -2098,9 +2128,8 @@ main {
   padding-bottom: 60px;
 }
 #grid-unirse #valores #videounirse {
-  width: 37.3831775701vw;
+  width: 29.3831775701vw;
   height: 18.2429906542vw;
-  border-top: #005b88 solid 5px;
 }
 #grid-unirse #valores #h4-unirse {
   display: flex;
@@ -2115,21 +2144,18 @@ main {
   #grid-unirse #valores #videounirse {
     width: 215.165105049px;
     height: 105.000571264px;
-    border-top: #005b88 solid 5px;
   }
 }
 @media (max-width: 490px) {
   #grid-unirse #valores #videounirse {
     width: 182.970887408px;
     height: 89.2897930551px;
-    border-top: #005b88 solid 5px;
   }
 }
 @media (max-width: 390px) {
   #grid-unirse #valores #videounirse {
     width: 145.51535802px;
     height: 71.0114947136px;
-    border-top: #005b88 solid 5px;
   }
 }
 

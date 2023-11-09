@@ -25,7 +25,8 @@ li {
 }
 iframe {
     border-radius: 5px  !important;
-
+    border-top: $color1 solid 5px;
+    box-shadow: $myshadow2;
 }
 .center {
     text-align: center;
