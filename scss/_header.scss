@@ -8,6 +8,15 @@ header {
     left: 0px !important;
     bottom: 0px !important;
     nav{
+        .logo-header-responsive{
+            display: none;
+        }
+        #menu-input{
+            display: none;
+        }
+        #menu-label{
+            display: none;
+        }
         .linkheader-color {
             padding-bottom: 0px;
             padding-left: 0px;
@@ -42,6 +51,109 @@ header {
                 height: 82.1256038647%;
                 margin-top: 0.93423281268%;
                 margin-bottom: 4.5px;
+            }
+        }
+    }
+}
+/* Media queries general de celular */
+@media (max-width: 780px){
+    header {
+        display: grid;
+        background-color: $color2 !important;
+        border-bottom: #0A0F14 solid 10px !important;
+        z-index: 2;
+        top: 0px  !important;
+        right: 0px  !important;
+        left: 0px !important;
+        bottom: 0px !important;
+        height: 140px;
+        padding-top: 10px;
+        position: relative  !important;
+        nav {
+            width: 100%;
+            display: flex;
+            .logo-header-responsive {
+                display: block;
+                width: 220px;
+                height: 110px;
+                border-radius: 5px;
+                margin-left: 20px;
+            }
+            #menu-input{
+                display: hidden;
+                position: relative;
+                right: 0px;
+            }
+            #menu-label{
+                display: flex;
+                position: absolute;
+                right: 20px;
+                bottom: 10px;
+                color: $color2;
+                background-color: $color1;
+                border-radius: 5px;
+                font-size: 22px;
+                font-weight: 700;
+                padding: 5px;
+                height: fit-content;
+                box-shadow: $myshadow;
+                #logo-menu{
+                    width: 28px;
+                    height: 28px;
+                    padding-left: 3px;
+                }
+
+            }
+            .linkheader-color {
+                display: none;
+                flex-direction: column;
+                position: relative;
+                right: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+                margin: 0px;
+                background-color: $color2;
+                width: 180px;
+                border: $color1 solid 4px;
+                border-radius: 5px;
+                box-shadow: $myshadow;
+                position: fixed;
+                margin-right: 5px;
+                li {
+                    height: fit-content;
+                    border-bottom: $color1 solid 2px;
+                    padding-bottom: 10px;
+                    a {
+                        color: $color1  !important;
+                        margin-left: 0.93457943925vw;
+                        font-size: 18px;
+                    }
+                }
+                .logo-header {
+                    display: none;
+                    width: 15.7943925234vw;
+                    height: 82.1256038647%;
+                    margin-top: 0.93423281268%;
+                }
+            }
+            .linkheader-color-bootstrap {
+                padding-bottom: 0px;
+                padding-left: 0px !important;
+                margin: 0px !important;
+                vertical-align: bottom  !important;
+                li {
+                    a {
+                        color: $color1  !important;
+                        margin-left: 0.93457943925vw;
+                        font-size: 1.8691588785vw;
+                    }
+                }
+                .logo-header-bootstrap {
+                    width: 15.7943925234vw;
+                    height: 82.1256038647%;
+                    margin-top: 0.93423281268%;
+                    margin-bottom: 4.5px;
+                }
             }
         }
     }
