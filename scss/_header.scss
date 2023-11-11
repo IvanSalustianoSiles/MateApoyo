@@ -7,12 +7,28 @@ header {
     right: 0px  !important;
     left: 0px !important;
     bottom: 0px !important;
+    box-shadow: 0px -5px 10px black, 0px 3px 10px black;
     nav{
         .logo-header-responsive{
             display: none;
         }
-        #menu-input{
+        #div-responsive{
             display: none;
+            position: absolute;
+            right: 140px;
+            bottom: 6px;
+            .logos-header {
+                width: 50px;
+                margin-left: 20px;
+                vertical-align: bottom  !important;
+            }
+            #profe-header{
+                width: 150px;
+            }
+        }
+        #menu-input{
+            width: 0px;
+            height: 0px;
         }
         #menu-label{
             display: none;
@@ -26,31 +42,33 @@ header {
                     color: $color1  !important;
                     margin-left: 0.93457943925vw;
                     font-size: 1.8691588785vw;
+                    .logo-header {
+                        width: 15.7943925234vw;
+                        height: 82.1256038647%;
+                        margin: 0px !important;
+                    }
                 }
             }
-            .logo-header {
-                width: 15.7943925234vw;
-                height: 82.1256038647%;
-                margin-top: 0.93423281268%;
-            }
+
         }
         .linkheader-color-bootstrap {
-            padding-bottom: 0px;
+            margin-bottom: -10px;
             padding-left: 0px !important;
             margin: 0px !important;
             vertical-align: bottom  !important;
             li {
+                line-height: normal !important;
                 a {
                     color: $color1  !important;
                     margin-left: 0.93457943925vw;
                     font-size: 1.8691588785vw;
+                    .logo-header-bootstrap {
+                        width: 123.188px;
+                        height: 49.6px;
+                        margin-bottom: 4.5px;
+                        margin-top: -3px;
+                    }
                 }
-            }
-            .logo-header-bootstrap {
-                width: 15.7943925234vw;
-                height: 82.1256038647%;
-                margin-top: 0.93423281268%;
-                margin-bottom: 4.5px;
             }
         }
     }
@@ -66,58 +84,83 @@ header {
         right: 0px  !important;
         left: 0px !important;
         bottom: 0px !important;
-        height: 140px;
+        height: 170px;
         padding-top: 10px;
         position: relative  !important;
+        box-shadow: 0px -5px 10px black, 0px 3px 10px black;
         nav {
             width: 100%;
             display: flex;
             .logo-header-responsive {
                 display: block;
-                width: 220px;
-                height: 110px;
-                border-radius: 5px;
-                margin-left: 20px;
-            }
-            #menu-input{
-                display: hidden;
                 position: relative;
-                right: 0px;
-            }
-            #menu-label{
-                display: flex;
-                position: absolute;
-                right: 20px;
-                bottom: 10px;
-                color: $color2;
-                background-color: $color1;
+                width: 151.5;
+                height: 156px;
                 border-radius: 5px;
-                font-size: 22px;
-                font-weight: 700;
-                padding: 5px;
-                height: fit-content;
-                box-shadow: $myshadow;
-                #logo-menu{
-                    width: 28px;
-                    height: 28px;
-                    padding-left: 3px;
+                left: 20px;
+                top: -13px;
+            }
+            #div-responsive{
+                display: block;
+                position: absolute;
+                right: 140px;
+                bottom: 6px;
+                .logos-header {
+                    width: 50px;
+                    margin-left: 20px;
                 }
-
+                #profe-header{
+                    width: 150px;
+                }
             }
             .linkheader-color {
-                display: none;
+                display: flex;
+                overflow: hidden;
                 flex-direction: column;
-                position: relative;
+                max-height: 0px;
                 right: 0px;
                 padding-bottom: 0px;
                 padding-left: 0px;
                 margin: 0px;
                 background-color: $color2;
                 width: 180px;
-                border: $color1 solid 4px;
+                border: $color1 solid 0px;
                 border-radius: 5px;
                 box-shadow: $myshadow;
-                position: fixed;
+                margin-right: 5px;
+                li {
+                    height: fit-content;
+                    border-bottom: $color1 solid 2px;
+                    padding-bottom: 10px;
+                    margin-bottom: 5px;
+                    a {
+                        color: $color1  !important;
+                        margin-left: 0.93457943925vw;
+                        font-size: 18px;
+                        .logo-header {
+                            width: 123.188px;
+                            height: 49.6px;
+                            margin-top: 6px    !important;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+            .linkheader-color-bootstrap {
+                padding-bottom: 0px;
+                padding-left: 0px !important;
+                margin: 0px !important;
+                vertical-align: none  !important;
+                display: flex;
+                max-height: 0px;
+                overflow: hidden;
+                flex-direction: column;
+                right: 5px;
+                background-color: $color2;
+                width: 180px;
+                border: $color1 solid 0px;
+                border-radius: 5px;
+                box-shadow: $myshadow;
                 margin-right: 5px;
                 li {
                     height: fit-content;
@@ -127,32 +170,104 @@ header {
                         color: $color1  !important;
                         margin-left: 0.93457943925vw;
                         font-size: 18px;
+                        .logo-header-bootstrap {
+                            width: 123.188px;
+                            height: 49.6px;
+                            margin-top: 6px;
+                            margin-bottom: 4.5px;
+                            border-radius: 5px;
+                        }
                     }
-                }
-                .logo-header {
-                    display: none;
-                    width: 15.7943925234vw;
-                    height: 82.1256038647%;
-                    margin-top: 0.93423281268%;
                 }
             }
-            .linkheader-color-bootstrap {
-                padding-bottom: 0px;
-                padding-left: 0px !important;
-                margin: 0px !important;
-                vertical-align: bottom  !important;
-                li {
-                    a {
-                        color: $color1  !important;
-                        margin-left: 0.93457943925vw;
-                        font-size: 1.8691588785vw;
-                    }
+            #menu-input{
+                width: 10px;
+                height: 10px;
+                z-index: 2;
+                &:checked + .linkheader-color {
+                    display: flex;
+                    position: absolute;
+                    max-height: 500px;
+                    flex-direction: column;
+                    right: 0px;
+                    padding-bottom: 0px;
+                    padding-left: 0px;
+                    margin: 0px;
+                    background-color: $color2;
+                    width: 180px;
+                    border: $color1 solid 4px;
+                    border-radius: 5px;
+                    box-shadow: $myshadow;
+                    margin-right: 5px;
+                    margin-top: 125px;
                 }
-                .logo-header-bootstrap {
-                    width: 15.7943925234vw;
-                    height: 82.1256038647%;
-                    margin-top: 0.93423281268%;
-                    margin-bottom: 4.5px;
+                &:checked + .linkheader-color-bootstrap {
+                    display: flex;
+                    position: absolute;
+                    max-height: 500px;
+                    flex-direction: column;
+                    right: 0px;
+                    padding-bottom: 0px;
+                    padding-left: 0px;
+                    margin: 0px;
+                    background-color: $color2;
+                    width: 180px;
+                    border: $color1 solid 4px;
+                    border-radius: 5px;
+                    box-shadow: $myshadow;
+                    margin-right: 5px   !important;
+                    margin-top: 160px   !important;
+                }
+            }
+            #menu-label {
+                display: flex;
+                position: absolute;
+                right: 20px;
+                bottom: 8px;
+                color: $color2;
+                background-color: $color1;
+                border-radius: 5px;
+                font-size: 22px;
+                font-weight: 700;
+                padding: 5px;
+                height: fit-content;
+                #logo-menu{
+                    width: 28px;
+                    height: 28px;
+                    padding-left: 3px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 617px){
+    header{
+        nav{
+            #div-responsive{
+                #profe-header{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 455px){
+    header{
+        nav{
+            #div-responsive{
+                #contacto-header{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 433px){
+    header{
+        nav{
+            #div-responsive{
+                #sus-header{
+                    display: none;
                 }
             }
         }

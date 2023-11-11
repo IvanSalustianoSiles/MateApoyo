@@ -89,18 +89,14 @@
       flex-wrap: wrap;
       height: 7.47663551402vw;
       width: 40.1869158879vw;
-      .form-check {
-        .form-check-label {
-          .logos-pc {
-            height: 4.58682242991vw;
-          }
+      label {
+        .logos-pc {
+          height: 4.58682242991vw !important;
         }
       }
-      div {
-        input {
-          height: 1.40186915888vw;
-          width: 1.40186915888vw;
-        }
+      input {
+        height: 1.40186915888vw;
+        width: 1.40186915888vw;
       }
       #submitfinal-pc {
         margin-top: 2.80373831776vw;
@@ -111,6 +107,17 @@
         font-weight: 500;
         border-radius: 5px;
         font-size: 16px;
+      }
+      #resetfinal-pc {
+        margin-top: 2.80373831776vw;
+        height: 2.80373831776vw;
+        width: 9.34579439252vw;
+        background-color: $color2;
+        color: $color1;
+        font-weight: 500;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-left: 10px;
       }
     }
   }
@@ -139,7 +146,7 @@
     }
     #article-forms {
       #form2-pc {
-        #submitfinal-pc{
+        #submitfinal-pc {
           margin-top: 2.80373831776vw;
           height: 2.80373831776vw;
           width: 9.34579439252vw;
@@ -148,6 +155,17 @@
           font-weight: 500;
           border-radius: 5px;
           font-size: 1.7094017094vw;
+        }
+        #resetfinal-pc {
+          margin-top: 2.80373831776vw;
+          height: 2.80373831776vw;
+          width: 9.34579439252vw;
+          background-color: $color2;
+          color: $color1;
+          font-weight: 500;
+          border-radius: 5px;
+          font-size: 1.7094017094vw;
+          margin-left: 10px;
         }
       }
     }
@@ -363,6 +381,18 @@
           font-size: 2.1094017094vw;
           margin-left: 3.60747663551vw;
           margin-top: 0px;
+        }
+        #resetfinal-pc {
+          margin-top: 2.80373831776vw;
+          height: 3.80373831776vw;
+          width: 10.94579439252vw;
+          background-color: $color2;
+          color: $color1;
+          font-weight: 500;
+          border-radius: 5px;
+          font-size: 2.1094017094vw;
+          margin-top: 0px;
+          margin-left: 10px;
         }
       }
     }

@@ -75,7 +75,9 @@
     width: 100%;
     text-align: center;
     h2{
-        width: 100%;
+        width: 90%;
+        margin-right: 3px;
+        margin-left: 3px;
     }
     #enfoque{
         width: 50.1869158879vw;
@@ -88,11 +90,16 @@
             width: 239px;
             height: 134px;
         }
-        .puntajematerial {
+        #puntajematerial1 {
             direction: rtl;
             unicode-bidi: bidi-override;
             input[type=radio] {
                 display: none;
+            }
+            input[type=submit] {
+                background: none;
+                font-weight:bolder;
+                font-size: 17px;
             }
             label {
                 color: grey;
@@ -100,7 +107,49 @@
             label:hover, label:hover ~ label {
                 color: #005b88;
             }
-            input[type="radio"]:checked ~ label {
+            input[type=radio]:checked ~ label {
+                color: #005b88;
+            }
+        }
+        #puntajematerial2 {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+            input[type=radio] {
+                display: none;
+            }
+            input[type=submit] {
+                background: none;
+                font-weight:bolder;
+                font-size: 17px;
+            }
+            label {
+                color: grey;
+            }
+            label:hover, label:hover ~ label {
+                color: #005b88;
+            }
+            input[type=radio]:checked ~ label {
+                color: #005b88;
+            }
+        }
+        #puntajematerial3 {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+            input[type=radio] {
+                display: none;
+            }
+            input[type=submit] {
+                background: none;
+                font-weight:bolder;
+                font-size: 17px;
+            }
+            label {
+                color: grey;
+            }
+            label:hover, label:hover ~ label {
+                color: #005b88;
+            }
+            input[type=radio]:checked ~ label {
                 color: #005b88;
             }
         }
