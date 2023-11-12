@@ -18,17 +18,19 @@
                 <a href="./contacto.html"><img src="../multimedia/help_logo.png" id="contacto-header" class="logos-header" alt="Ayuda"></a>
                 <a href="#"><img src="../multimedia/money_logo.png" id="sus-header" class="logos-header" alt="Suscripción"></a>
             </div>
-            <label id="menu-label" for="menu-input">Menú <img src="../multimedia/LogoIndividual.png" alt="MateApoyo" id="logo-menu"></label>
-            <input type="radio" id="menu-input">
-            <ul class="linkheader-color">
-             <li><a href="../index.html"><img src="../multimedia/MateApoyoLogo.png" class="logo-header inline" alt="Inicio"></a></li>
-             <li><a href="./tu-profesor.html">Tu Profesor</a></li>
-             <li><a href="./ejemplos.html">Ejemplos</a></li>
-             <li><a href="./pedir-clase.html">Pedir clase</a></li>
-             <li><a href="./contacto.html">Contacto</a></li>
-             <li><a href="./unirse.html">Unirse</a></li>
-             <li><a href="#">Suscripción</a></li>
-            </ul>
+            <div class="div2-header">
+                <label id="menu-label" for="menu-input">Menú <img src="../multimedia/LogoIndividual.png" alt="MateApoyo" id="logo-menu"></label>
+                <input type="checkbox" id="menu-input">
+                <ul class="linkheader-color">
+                    <li><a href="../index.html"><img src="../multimedia/MateApoyoLogo.png" class="logo-header inline" alt="Inicio"></a></li>
+                    <li><a href="./tu-profesor.html">Tu Profesor</a></li>
+                    <li><a href="./ejemplos.html">Ejemplos</a></li>
+                    <li><a href="./pedir-clase.html">Pedir clase</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./unirse.html">Unirse</a></li>
+                    <li><a href="#">Suscripción</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main id="grid-suscripcion">
@@ -87,8 +89,10 @@
                 <label for="input2"><img class="visa-logo" src="../multimedia/visa_logo.png" alt="Visa"></label>
                 <input type="radio" name="options" id="input3" autocomplete="off">
                 <label for="input3"><img class="paypal-logo" src="../multimedia/paypal_logo.png" alt="Paypal"></label>
-                <input class="contires" type="submit" title="Continuar" value="Continuar">
-                <input class="contires" type="reset" title="Reiniciar" value="Reiniciar">
+                <div>
+                    <input class="contires" type="submit" title="Continuar" value="Continuar">
+                    <input class="contires" type="reset" title="Reiniciar" value="Reiniciar">
+                </div>
             </div>
         </form>
     </main>

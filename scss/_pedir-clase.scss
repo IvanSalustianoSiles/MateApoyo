@@ -1,3 +1,6 @@
+#main-pc{
+  height: fit-content;
+}
 #sec1-pc {
   padding-left: 22.0560747664vw;
   #volver5 {
@@ -370,29 +373,45 @@
             height: 14px;
           }
         }
-        #submitfinal-pc{
-          margin-top: 2.80373831776vw;
-          height: 3.80373831776vw;
-          width: 10.94579439252vw;
-          background-color: $color2;
-          color: $color1;
-          font-weight: 500;
-          border-radius: 5px;
-          font-size: 2.1094017094vw;
-          margin-left: 3.60747663551vw;
-          margin-top: 0px;
+        div{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: fit-content;
+          #submitfinal-pc{
+            margin-top: 2.80373831776vw;
+            height: 3.80373831776vw;
+            width: 10.94579439252vw;
+            background-color: $color2;
+            color: $color1;
+            font-weight: 500;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            font-size: 2.1094017094vw;
+            margin-left: 10px;
+            margin-top: 0px;
+          }
+          #resetfinal-pc {
+            margin-top: 2.80373831776vw;
+            height: 3.80373831776vw;
+            width: 10.94579439252vw;
+            background-color: $color2;
+            color: $color1;
+            font-weight: 500;
+            border-top-right-radius: 0px;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-size: 2.1094017094vw;
+            margin-top: 0px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+          }
         }
-        #resetfinal-pc {
-          margin-top: 2.80373831776vw;
-          height: 3.80373831776vw;
-          width: 10.94579439252vw;
-          background-color: $color2;
-          color: $color1;
-          font-weight: 500;
-          border-radius: 5px;
-          font-size: 2.1094017094vw;
-          margin-top: 0px;
-          margin-left: 10px;
+        label{
+          margin-bottom: 8px;
         }
       }
     }

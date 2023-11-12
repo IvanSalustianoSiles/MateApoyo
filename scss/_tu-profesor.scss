@@ -1,155 +1,319 @@
 #tuprofemain {
-  background-image: url(../multimedia/Proximamentefoto2.png);
-  background-size: 82.2429906542vw auto;
   height: 450px;
-  background-repeat: no-repeat;
   border-left-color: $color2;
   border-right-color: $color2;
+  #tuprofe-carrusel1{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 450px !important;
+    overflow: hidden  !important;
+    .carousel-inner{
+      height: 101%  !important;
+      .carousel-item{
+        height: 100% !important;
+        #perfil-1, #perfil-2 {
+          width: 875px;
+          height: 652.5px;
+        }
+        #pizarra-1, #pizarra-2{
+          width: 875px;
+          height: 494.786729858px;
+        }
+        #abrazo {
+          width: 875px;
+          height: 580px;
+        }
+        #frontal {
+          position: relative;
+          top: -200px;
+          width: 879px;
+          height: 110.714285714vw;
+        }
+      }
+    }
+  }
   #volver3 {
+    position: absolute;
+    top: 60px;
     font-size: 70px;
     font-weight: 300;
     width: 500px;
-    margin-left: 3.73831775701vw;
-    padding-top: 9.34579439252vw;
-    border-bottom: #0A0F14 solid 2px;
+    margin-left: 40px;
+    padding-top: 100px;
+    border-bottom: rgba(255, 255, 255, 0.714) solid 2px;
+    color: rgba(255, 255, 255, 0.714);
+    z-index: 1;
   }
   #ptuprofesor {
+    position: absolute;
+    top: 340px;
     overflow-y: scroll;
-    margin-left: 3.73831775701vw;
-    margin-top: 0.93457943925vw;
-    width: 46.7289719626vw;
-    height: 14.0186915888vw;
-    font-size: 1.30841121495vw;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 500px;
+    height: 150px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.714);;
     p{
       margin-bottom: 17.6px;
+    }
+  }
+}
+/* Media queries general de PC */
+@media (max-width: 860px) {
+  #tuprofemain {
+    #tuprofe-carrusel1 {
+      .carousel-inner {
+        .carousel-item {
+          #frontal {
+            position: relative;
+            top: -150px;
+            left: 0px;
+            width: 700px;
+            height: 933.333333333px;
+          }
+          #pizarra-1, #pizarra-2{
+            position: relative;
+            left: -176px;
+            width: 876px;
+            height: 454.976303318px;
+          }
+        }
+      }
     }
   }
 }
 /* Media queries general de celular */
 @media (max-width: 777px){
   #tuprofemain {
-    background-image: url(../multimedia/Proximamentefoto3.png);
-    background-size: 82.2429906542vw auto;
     height: 450px;
-    background-repeat: no-repeat;
     border-left-color: $color2;
     border-right-color: $color2;
     #volver3 {
       font-size: 50px;
       font-weight: 300;
-      width: 330px;
-      margin-left: 3.73831775701vw;
+      width: 500px;
+      margin-left: 35px;
       padding-top: 9.34579439252vw;
-      border-bottom: #0A0F14 solid 2px;
+      border-bottom: white solid 2px;
     }
     #ptuprofesor {
+      position: absolute;
+      top: 270px;
       overflow-y: scroll;
-      margin-left: 3.73831775701vw;
+      margin-left: 35px;
       margin-top: 1.13457943925vw;
-      width: 50.7289719626vw;
-      height: 20.0186915888vw;
-      font-size: 1.30841121495vw;
+      width: 500px;
+      height: 200px;
+      font-size: 16px;
+      padding-bottom: 5px;
+    }
+  }
+}
+@media (max-width: 740px) {
+  #tuprofemain {
+    #tuprofe-carrusel1 {
+      .carousel-inner {
+        .carousel-item {
+          #abrazo {
+            width: 675px;
+            height: 454px; 
+          }
+        }
+      }
+    }
+    #volver3 {
+      font-size: 50px;
+      font-weight: 300;
+      width: 400px;
+      margin-left: 35px;
+      padding-top: 9.34579439252vw;
+      border-bottom: white solid 2px;
+    }
+    #ptuprofesor {
+      position: absolute;
+      top: 270px;
+      overflow-y: scroll;
+      margin-left: 35px;
+      margin-top: 1.13457943925vw;
+      width: 400px;
+      height: 200px;
+      font-size: 16px;
       padding-bottom: 5px;
     }
   }
 }
 @media (max-width: 649px){
   #tuprofemain {
+    height: 450px;
+    border-left-color: $color2;
+    border-right-color: $color2;
     #volver3 {
-      font-size: 7.71604938272vw;
+      font-size: 50px;
       font-weight: 300;
-      width: 50.9259259259vw;
-      margin-left: 3.73831775701vw;
-      padding-top: 10.34579439252vw;
-      border-bottom: #0A0F14 solid 2px;
+      width: 320px;
+      margin-left: 25px;
+      padding-top: 60px;
+      padding-bottom: 5px;
+      border-bottom: white solid 2px;
     }
     #ptuprofesor {
+      position: absolute;
+      top: 260px;
       overflow-y: scroll;
-      margin-left: 3.73831775701vw;
-      margin-top: 1.13457943925vw;
-      width: 50.7289719626vw;
-      height: 30.0186915888vw;
-      font-size: 1.80841121495vw;
+      margin-left: 25px;
+      width: 320px;
+      height: 200px;
+      font-size: 16px;
       padding-bottom: 5px;
     }
   }
 }
-@media (max-width: 576px) {  
+@media (max-width: 640px) {
   #tuprofemain {
-    background-image: url(../multimedia/Proximamentefoto4.png);
-    background-size: 82.2429906542vw auto;
-    height: 450px;
-    background-repeat: no-repeat;
-    border-left-color: $color2;
-    border-right-color: $color2;
-    #volver3 {
-      font-size: 7.71604938272vw;
-      font-weight: 280;
-      width: 70.9259259259vw;
-      margin-left: 3.73831775701vw;
-      padding-top: 20.34579439252vw;
-      border-bottom: #0A0F14 solid 2px;
+    #tuprofe-carrusel1 {
+      .carousel-inner {
+        .carousel-item {
+          #pizarra-1, #pizarra-2{
+            position: relative;
+            left: -270px;
+            width: 791.25px;
+            height: 450px;
+          }
+        }
+      }
     }
-    #ptuprofesor {
-      overflow-y: scroll;
-      margin-left: 3.73831775701vw;
-      margin-top: 1.13457943925vw;
-      width: 50.7289719626vw;
-      height: 30.0186915888vw;
-      font-size: 1.80841121495vw;
-      padding-bottom: 5px;
+  }
+}
+@media (max-width: 609px) {
+  #tuprofemain {
+    #tuprofe-carrusel1 {
+      .carousel-inner {
+        .carousel-item {
+          #perfil-1, #perfil-2 {
+            width: 600px;
+            height: 454px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 572px) {
+  #tuprofemain {
+    #tuprofe-carrusel1 {
+      .carousel-inner {
+        .carousel-item {
+          #abrazo {
+            position: relative;
+            left: -160px;
+            width: 675px;
+            height: 450px; 
+          }
+          #frontal {
+            position: relative;
+            top: -150px;
+            left: 0px;
+            width: 466.4px;
+            height: 621.866666667px;
+          }
+        }
+      }
     }
   }
 }
 @media (max-width: 482px){
   #tuprofemain {
     #volver3 {
-      font-size: 8.71604938272vw;
-      font-weight: 280;
-      width: 70.9259259259vw;
-      margin-left: 3.73831775701vw;
-      padding-top: 20.34579439252vw;
-      border-bottom: #0A0F14 solid 2px;
+      position: absolute;
+      top: 100px;
+      font-size: 40px;
+      font-weight: 300;
+      width: 260px;
+      margin-left: 15px;
+      padding-top: 60px;
+      padding-bottom: 5px;
+      border-bottom: white solid 2px;
     }
     #ptuprofesor {
+      position: absolute;
+      top: 265px;
       overflow-y: scroll;
-      margin-left: 3.73831775701vw;
-      margin-top: 1.13457943925vw;
-      width: 50.7289719626vw;
-      height: 44.0186915888vw;
-      font-size: 2vw;
+      margin-left: 15px;
+      width: 260px;
+      height: 200px;
+      font-size: 14px;
       padding-bottom: 5px;
     }
   }
 }
-@media (max-width: 439px){
-    #tuprofemain {
-      background-image: url(../multimedia/Proximamentefoto5.png);
-      background-size: 82.2429906542vw auto;
-      height: 450px;
-      background-repeat: no-repeat;
-      border-left-color: $color2;
-      border-right-color: $color2;
+@media (max-width: 450px) {
+  #tuprofemain {
+    #tuprofe-carrusel1 {
+      .carousel-inner {
+        .carousel-item {
+          #pizarra-1 {
+            position: relative;
+            left: -422px;
+            width: 791.25px;
+            height: 454px;
+          }
+          #pizarra-2{
+            left: -300px;
+            width: 791.25px;
+            height: 454px;
+          }
+        }
+      }
     }
+  }
+}
+@media (max-width: 415px) {
+  #tuprofemain {
+    #tuprofe-carrusel1 {
+      .carousel-inner {
+        .carousel-item {
+          #perfil-1, #perfil-2 {
+            position: relative;
+            left: -150px;
+            width: 600px;
+            height: 454px;
+          } 
+          #frontal {
+            position: relative;
+            top: -150px;
+            left: -100px;
+            width: 466.4px;
+            height: 621.866666667px;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 390px) {
   #tuprofemain {
-    #ptuprofesor {
-      overflow-y: scroll;
-      margin-left: 3.73831775701vw;
-      margin-top: 1.13457943925vw;
-      width: 50.7289719626vw;
-      height: 54.0186915888vw;
-      font-size: 2vw;
-      padding-bottom: 5px;
-    }
     #volver3 {
-      font-size: 8.71604938272vw;
-      font-weight: 280;
-      width: 70.9259259259vw;
-      margin-left: 3.73831775701vw;
-      padding-top: 30.34579439252vw;
-      border-bottom: #0A0F14 solid 2px;
+      position: absolute;
+      top: 120px;
+      font-size: 30px;
+      font-weight: 300;
+      width: 220px;
+      margin-left: 15px;
+      padding-top: 60px;
+      padding-bottom: 5px;
+      border-bottom: white solid 2px;
+    }
+    #ptuprofesor {
+      position: absolute;
+      top: 265px;
+      overflow-y: scroll;
+      margin-left: 15px;
+      width: 220px;
+      height: 200px;
+      font-size: 14px;
+      padding-bottom: 5px;
     }
   } 
 }

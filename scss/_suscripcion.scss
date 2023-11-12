@@ -10,15 +10,15 @@
     #volver4{
         grid-area: titulo-s;
         width: 77.5700934579vw;
-        margin-left: 0.93457943925vw;
-        font-size: 4.67289719626vw;
+        margin-left: 14px;
+        font-size: 50px        ;
         padding-top: 3.73831775701vw;
         border-bottom: solid black 3px;
     }
     #h4-sus{
         grid-area: sus;
-        font-size: 1.68224299065vw;
-        margin-left: 0.93457943925vw;
+        font-size: 18px;
+        margin-left: 14px;
 
     }
     #promo{
@@ -32,7 +32,11 @@
             width: 23.3644859813vw;
             height: 37.3831775701vw;
             align-content:space-evenly;
+            background-color: #101820;
+            color: #a5bacf;
             border: double black 4px;
+            border-radius: 10px;
+            box-shadow: $myshadow2;
             .h2-suscripcion{
                 text-align: center;
                 font-size: 3.27102803738vw;
@@ -50,15 +54,20 @@
                 text-align: center;
                 align-self: end;
                 flex-wrap: wrap;
+                font-size: 2.80373831776vw;
+                font-style: italic;
             }
         }
     }
     #mateapoyer{
         grid-area: mateapoyer;
-        border-left: black solid 1px;
+        border-left: $color2 solid 3px;
         margin-top: 15px;
         margin-bottom: 15px;
         text-align: center;
+        h3{
+            margin-bottom: 8px;
+        }
     }
     #form-s{
         grid-area: form-s;
@@ -70,9 +79,28 @@
             flex-direction: column;
             input, select{
                 border: double black 3px;
+                background-color: #101820;
+                color: #a5bacf;
+                border-radius: 10px;
                 margin-bottom: 15px;
-                height: 28px;
+                height: 38px;
+                padding-left: 6px;
+                box-shadow: 10px 10px 10px $color2;
+                &::placeholder{
+                    color: #a5bacf;
+                }
+            }
+            select{
+                border: double black 3px;
+                background-color: #101820;
+                color: #a5bacf;
+                border-radius: 10px;
+                margin-bottom: 15px;
+                height: 38px;
                 padding-left: 4px;
+                &::placeholder{
+                    color: #a5bacf;
+                }
             }
         }
         .form2-s{
@@ -80,48 +108,49 @@
             img{
                 width: 100px;
                 height: auto;
+                transform: translate(-18px, 0px);
+                border: solid black 3px;
+                border-radius: 10px;
+                box-shadow: 10px 10px 10px $color2;
             }
-            .contires{
-                width: 100px;
-                height: 24px;
-                margin-top: 5px;
-                font-size: 16px;
-                background-color: $color2;
-                color: $color1;
-                font-weight: 500;
-                border-radius: 5px;
-                margin-bottom: 5px;
+            div{
+                display: flex;
+                flex-direction: row;
+                margin-top: 8px;
+                .contires{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-content: center;
+                    flex-wrap: wrap;
+                    width: 100px;
+                    height: 30px;
+                    margin-top: 5px;
+                    font-size: 16px;
+                    background-color: $color2;
+                    color: $color1;
+                    font-weight: 700;
+                    vertical-align: center;
+                    border: double black 3px;
+                    border-radius: 10px;
+                    margin-bottom: 20px;
+                    margin-right: 20px;
+                    box-shadow: 10px 10px 10px $color2;
+                }
             }
         }
     }
 }
 @media (max-width: 929px){
    #grid-suscripcion{
-    #mateapoyer{
-        iframe{
-            width: 256.787px;
-            height: 149.6px;
+        #mateapoyer{
+            iframe{
+                width: 256.787px;
+                height: 149.6px;
+            }
         }
-    }
    }
 }
-@media (max-width: 861px){
-    #grid-suscripcion{
-     #mateapoyer{
-         margin-right: 30px;
-         iframe{
-             width: 205.4296px;
-             height: 119.68px;
-            }
-            h3{
-                font-size: 15px;
-            }
-            h5{
-                font-size: 12px;
-            }
-        }
-    }
- }
 @media (max-width: 861px){
     #grid-suscripcion{
         display: grid;
@@ -134,12 +163,29 @@
         "mateapoyer mateapoyer";
         grid-template-rows: auto auto auto auto auto;
         grid-template-columns: auto auto;
+        #volver4{
+            display: flex;
+            justify-content: center;
+            justify-self: center;
+            margin-left: 0px;
+        }
+        #h4-sus{
+            display: flex;
+            justify-self: center;
+            justify-content:left;
+            width: max-content;
+            margin-left: 0px;
+            a{
+                margin-left: 2px;
+                margin-right: 2px;
+            }
+        }
         #form-s{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             grid-area: form-s;
-            margin-left: 20px;
+            margin-left: 0px;
             margin-top: 20px;
             .form1-s{
                 display: flex;
@@ -147,12 +193,8 @@
                 align-content: center;
                 flex-wrap: wrap;
                 width: 100%;
-                input{
-                    border: double black 3px;
-                    margin-bottom: 15px;
-                    height: 28px;
-                    width: 171.2px;
-                    padding-left: 4px;
+                input, select{
+                    font-size: 20px;
                 }
             }
             .form2-s{
@@ -160,36 +202,183 @@
                 justify-content: center;
                 flex-wrap: wrap;
                 width: 350px;
+                input:not(.contires){
+                    max-height: 0px;
+                }
                 img{
                     width: 100px;
                     height: auto;
+                    transform: translate(-6px, 0px);
                 }
-                .contires{
-                    width: 100px;
-                    height: 24px;
-                    margin-top: 5px;
-                    font-size: 16px;
-                    background-color: #101820;
-                    color: #a5bacf;
-                    font-weight: 500;
-                    border-radius: 5px;
-                    margin-bottom: 5px;
-                    margin-right: 5px;
+                div{
+                    .contires{
+                        font-size: 17px;
+                    }
                 }
             }
         }
         #mateapoyer{
             margin-right: 0px;
+            margin-right: 0px;
+            border-left: 0px;
+            iframe{
+                width: auto;
+                height: auto;
+            }
+            h3{
+                font-size: 30px;
+            }
+            h5{
+                font-size: 18px;
+            }
+        }
+        #promo {
+            article {
+                height: 50.3831775701vw;
+                .p-suscripcion {
+                    font-size: 24px;
+                }
+                .beneficios{
+                    li{
+                        font-size: 17px;
+                    }
+                }
+                height: 400px;
+                .h2-suscripcion{
+                    font-size: 24px;
+                }
+             
+            }
         }
     }
 }
-@media (max-width: 861px){
+@media (max-width: 654px){
+    #grid-suscripcion {
+        #h4-sus {
+            display: flex;
+            justify-self: center;
+            justify-content:left;
+            width: max-content;
+            margin-left: 0px;
+            font-size: 14px;
+            a{
+                margin-left: 2px;
+                margin-right: 2px;
+            }
+        }
+        #promo {
+            article {
+                height: 400px;
+                .h2-suscripcion{
+                    font-size: 20px;
+                }
+                .beneficios {
+                    li {
+                        font-size: 16px;
+                    }
+                }
+                .p-suscripcion {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 516px){
     #grid-suscripcion{
+        #h4-sus{
+            font-size: 12px;
+        }
+        #promo {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            flex-wrap: wrap;
+            article {
+                height: 160px;
+                width: 80%;
+                .h2-suscripcion{
+                    font-size: 20px;
+                }
+                .beneficios {
+                    li {
+                        font-size: 16px;
+                    }
+                }
+                .p-suscripcion {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 452px){
+    #grid-suscripcion{
+        #h4-sus{
+            font-size: 10px;
+        }
+    }
+}
+@media (max-width: 420px){
+    #grid-suscripcion{
+        #volver4{
+            font-size: 6.99300699301vw;
+            border: 0px;
+            width: 60%;
+            border-bottom: black solid 2px;
+        }
+        #h4-sus{
+            font-size: 2.331002331vw;
+            width: 81.5850815851vw;
+        }
         #promo{
+            width: 81.5850815851vw;
             article{
-                height: 50.3831775701vw;
+                width: 46.62004662vw;
+                height: 250px; //58.2750582751vw
+                .h2-suscripcion{
+                    font-size: 4.662004662vw;
+                }
+                .beneficios{
+                    li {
+                        font-size: 3.7296037296vw;
+                    }   
+                }
                 .p-suscripcion{
-                    font-size: 10px;
+                    font-size: 3.7296037296vw;
+                }
+            }
+        }
+        #mateapoyer{
+            width: 81.5850815851vw;
+            h3{
+                width: 100%;
+            }
+            iframe{
+                width: 256.787px;
+                height: 149.6px;
+            }
+            h5{
+                font-size: 3.2634032634vw;
+            }
+        }
+        #form-s {
+            width: 185px;
+            margin-left: 19.2307692308vw;
+            .form1-s {
+                width: fit-content;
+                input, select{
+                    width: 178px;
+                }
+            }
+            .form2-s{
+                img{
+                    width: 17.4825174825vw;
+                }
+                div{
+                    .contires{
+                        font-size: 3.9627039627vw;
+                    }
                 }
             }
         }

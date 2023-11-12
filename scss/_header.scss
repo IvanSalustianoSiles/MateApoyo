@@ -26,47 +26,49 @@ header {
                 width: 150px;
             }
         }
-        #menu-input{
-            width: 0px;
-            height: 0px;
-        }
-        #menu-label{
-            display: none;
-        }
-        .linkheader-color {
-            padding-bottom: 0px;
-            padding-left: 0px;
-            margin: 0px;
-            li {
-                a {
-                    color: $color1  !important;
-                    margin-left: 0.93457943925vw;
-                    font-size: 1.8691588785vw;
-                    .logo-header {
-                        width: 15.7943925234vw;
-                        height: 82.1256038647%;
-                        margin: 0px !important;
+        .div2-header {
+            overflow-x: hidden;
+            #menu-input{
+                width: 0px;
+                height: 0px;
+            }
+            #menu-label{
+                display: none;
+            }
+            .linkheader-color {
+                padding-bottom: 0px;
+                padding-left: 0px;
+                margin: 0px;
+                li {
+                    a {
+                        color: $color1  !important;
+                        margin-left: 0.93457943925vw;
+                        font-size: 1.8691588785vw;
+                        .logo-header {
+                            width: 15.7943925234vw;
+                            height: 82.1256038647%;
+                            margin: 0px !important;
+                        }
                     }
                 }
             }
-
-        }
-        .linkheader-color-bootstrap {
-            margin-bottom: -10px;
-            padding-left: 0px !important;
-            margin: 0px !important;
-            vertical-align: bottom  !important;
-            li {
-                line-height: normal !important;
-                a {
-                    color: $color1  !important;
-                    margin-left: 0.93457943925vw;
-                    font-size: 1.8691588785vw;
-                    .logo-header-bootstrap {
-                        width: 123.188px;
-                        height: 49.6px;
-                        margin-bottom: 4.5px;
-                        margin-top: -3px;
+            .linkheader-color-bootstrap {
+                margin-bottom: -10px;
+                padding-left: 0px !important;
+                margin: 0px !important;
+                vertical-align: bottom  !important;
+                li {
+                    line-height: normal !important;
+                    a {
+                        color: $color1  !important;
+                        margin-left: 0.93457943925vw;
+                        font-size: 1.8691588785vw;
+                        .logo-header-bootstrap {
+                            width: 15.7943925234vw;
+                            height: 82.1256038647%;
+                            margin-bottom: 4.5px;
+                            margin-top: -3px;
+                        }
                     }
                 }
             }
@@ -113,131 +115,138 @@ header {
                     width: 150px;
                 }
             }
-            .linkheader-color {
-                display: flex;
-                overflow: hidden;
-                flex-direction: column;
-                max-height: 0px;
-                right: 0px;
-                padding-bottom: 0px;
-                padding-left: 0px;
-                margin: 0px;
-                background-color: $color2;
-                width: 180px;
-                border: $color1 solid 0px;
-                border-radius: 5px;
-                box-shadow: $myshadow;
-                margin-right: 5px;
-                li {
-                    height: fit-content;
-                    border-bottom: $color1 solid 2px;
-                    padding-bottom: 10px;
-                    margin-bottom: 5px;
-                    a {
-                        color: $color1  !important;
-                        margin-left: 0.93457943925vw;
-                        font-size: 18px;
-                        .logo-header {
-                            width: 123.188px;
-                            height: 49.6px;
-                            margin-top: 6px    !important;
-                            border-radius: 5px;
-                        }
-                    }
-                }
-            }
-            .linkheader-color-bootstrap {
-                padding-bottom: 0px;
-                padding-left: 0px !important;
-                margin: 0px !important;
-                vertical-align: none  !important;
-                display: flex;
-                max-height: 0px;
-                overflow: hidden;
-                flex-direction: column;
-                right: 5px;
-                background-color: $color2;
-                width: 180px;
-                border: $color1 solid 0px;
-                border-radius: 5px;
-                box-shadow: $myshadow;
-                margin-right: 5px;
-                li {
-                    height: fit-content;
-                    border-bottom: $color1 solid 2px;
-                    padding-bottom: 10px;
-                    a {
-                        color: $color1  !important;
-                        margin-left: 0.93457943925vw;
-                        font-size: 18px;
-                        .logo-header-bootstrap {
-                            width: 123.188px;
-                            height: 49.6px;
-                            margin-top: 6px;
-                            margin-bottom: 4.5px;
-                            border-radius: 5px;
-                        }
-                    }
-                }
-            }
-            #menu-input{
-                width: 10px;
-                height: 10px;
-                z-index: 2;
-                &:checked + .linkheader-color {
+            .div2-header {
+                overflow-x: hidden;
+                .linkheader-color {
                     display: flex;
-                    position: absolute;
-                    max-height: 500px;
+                    overflow: hidden;
                     flex-direction: column;
+                    max-height: 0px;
                     right: 0px;
                     padding-bottom: 0px;
                     padding-left: 0px;
                     margin: 0px;
                     background-color: $color2;
-                    width: 180px;
-                    border: $color1 solid 4px;
+                    width: 0px;
+                    border: $color1 solid 0px;
                     border-radius: 5px;
                     box-shadow: $myshadow;
                     margin-right: 5px;
-                    margin-top: 125px;
+                    li {
+                        height: fit-content;
+                        border-bottom: $color1 solid 2px;
+                        padding-bottom: 10px;
+                        margin-bottom: 5px;
+                        a {
+                            color: $color1  !important;
+                            margin-left: 0.93457943925vw;
+                            font-size: 18px;
+                            .logo-header {
+                                width: 123.188px;
+                                height: 49.6px;
+                                margin-top: 6px    !important;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
                 }
-                &:checked + .linkheader-color-bootstrap {
-                    display: flex;
-                    position: absolute;
-                    max-height: 500px;
-                    flex-direction: column;
-                    right: 0px;
+                .linkheader-color-bootstrap {
                     padding-bottom: 0px;
-                    padding-left: 0px;
-                    margin: 0px;
+                    padding-left: 0px !important;
+                    margin: 0px !important;
+                    vertical-align: none  !important;
+                    display: flex;
+                    max-height: 0px;
+                    overflow: hidden;
+                    flex-direction: column;
+                    right: 5px;
                     background-color: $color2;
-                    width: 180px;
-                    border: $color1 solid 4px;
+                    width: 0px;
+                    border: $color1 solid 0px;
                     border-radius: 5px;
                     box-shadow: $myshadow;
-                    margin-right: 5px   !important;
-                    margin-top: 160px   !important;
+                    margin-right: 5px;
+                    li {
+                        height: fit-content;
+                        border-bottom: $color1 solid 2px;
+                        padding-bottom: 10px;
+                        a {
+                            color: $color1  !important;
+                            margin-left: 0.93457943925vw;
+                            font-size: 18px;
+                            .logo-header-bootstrap {
+                                width: 123.188px;
+                                height: 49.6px;
+                                margin-top: 6px;
+                                margin-bottom: 4.5px;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
                 }
-            }
-            #menu-label {
-                display: flex;
-                position: absolute;
-                right: 20px;
-                bottom: 8px;
-                color: $color2;
-                background-color: $color1;
-                border-radius: 5px;
-                font-size: 22px;
-                font-weight: 700;
-                padding: 5px;
-                height: fit-content;
-                #logo-menu{
-                    width: 28px;
-                    height: 28px;
-                    padding-left: 3px;
+                #menu-input{
+                    width: 10px;
+                    height: 10px;
+                    z-index: 2;
+                    &:checked + .linkheader-color {
+                        display: flex;
+                        position: absolute;
+                        max-height: 500px;
+                        flex-direction: column;
+                        right: 0px;
+                        padding-bottom: 5px;
+                        padding-left: 0px;
+                        margin: 0px;
+                        background-color: $color2;
+                        width: 180px;
+                        border: $color1 solid 4px;
+                        border-radius: 5px;
+                        box-shadow: $myshadow;
+                        margin-right: 5px;
+                        margin-top: 125px;
+                    }
+                    &:checked + .linkheader-color-bootstrap {
+                        display: flex;
+                        position: absolute;
+                        max-height: 500px;
+                        flex-direction: column;
+                        right: 0px;
+                        padding-bottom: 5px;
+                        padding-left: 0px;
+                        margin: 0px;
+                        background-color: $color2;
+                        width: 180px;
+                        border: $color1 solid 4px;
+                        border-radius: 5px;
+                        box-shadow: $myshadow;
+                        margin-right: 5px   !important;
+                        margin-top: 125px   !important;
+                    }
+                }
+                #menu-label {
+                    display: flex;
+                    position: absolute;
+                    right: 20px;
+                    bottom: 8px;
+                    color: $color2;
+                    background-color: $color1;
+                    border-radius: 5px;
+                    font-size: 22px;
+                    font-weight: 700;
+                    padding: 5px;
+                    height: fit-content;
+                    #logo-menu{
+                        width: 28px;
+                        height: 28px;
+                        padding-left: 3px;
+                    }
                 }
             }
         }
+    }
+    main{
+        position: relative;
+        overflow: hidden;
     }
 }
 @media (max-width: 617px){
